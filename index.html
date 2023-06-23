@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./components/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iceland&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="main">
+                <div class="bg"></div>
+                <div class="star-field">
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                </div>
+                <div id="home" class="home-section h-screen">
+                    <nav class="fixed top-0 left-0 right-0 pb-10">
+                        <div class="flex items-center justify-between">
+                            <div class="logo text-4xl max-sm:text-2xl px-10 max-sm:px-4 text-white animate__animated animate__slideInDown">
+                                <a href="#home" class="flex items-center">
+                                    <h1>HS25</h1>
+                                </a>
+                            </div>
+                            <div class="flex items-center space-x-4 ml-auto menu-btn hidden text-xl text-gray-400">
+                                <a href="#home" class="revealedText invisible hover:text-white">HOME</a>
+                                <a href="#about" class="revealedText hover:text-white">ABOUT</a>
+                                <a href="#" class="revealedText max-sm:hidden hover:text-white">SKILLS</a>
+                                <a href="#" class="revealedText max-sm:hidden hover:text-white">PROJECTS</a>
+                                <a href="#" class="revealedText hover:text-white">CONTACT</a>
+                            </div>
+                            <div class="pt-2">
+                                <button class="outline-none mobile-menu-button animate__animated animate__slideInDown">
+                                    <svg
+                                        class="w-12 h-12 mt-2 mr-10 max-sm:mx-5 max-sm:w-10 max-sm:h-10 hamburger-icon text-white"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                        d="M4 6C4 5.44772 4.44772 5 5 5H19C19.5523 5 20 5.44772 20 6C20 6.55228 19.5523 7 19 7H5C4.44772 7 4 6.55228 4 6Z"
+                                        fill="currentColor"
+                                        />
+                                        <path
+                                        d="M4 18C4 17.4477 4.44772 17 5 17H19C19.5523 17 20 17.4477 20 18C20 18.5523 19.5523 19 19 19H5C4.44772 19 4 18.5523 4 18Z"
+                                        fill="currentColor"
+                                        />
+                                        <path
+                                        d="M11 11C10.4477 11 10 11.4477 10 12C10 12.5523 10.4477 13 11 13H19C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11H11Z"
+                                        fill="currentColor"
+                                        />
+                                    </svg>
+                                    <svg 
+                                        class="w-16 h-16 mr-9 max-sm:mx-3 max-sm:w-14 max-sm:h-14 times-icon hidden"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        stroke="#ffffff"
+                                        >
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <path d="M16 8L8 16M8 8L16 16" stroke="#ffffff" stroke-width="2" stroke-linecap="round"></path>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hero-main">
+                        <div class="flex flex-col items-center justify-center h-screen ">
+                            <div class="flex flex-col items-center justify-center">
+                                <div class="text-6xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[10vw] text-center tracking-wider p-0 animate__animated animate__bounceInLeft animate__slow-5s">
+                                    <div class="letter">H</div>
+                                    <div class="letter">O</div>
+                                    <div class="letter">M</div>
+                                    <div class="letter">E</div>
+                                    <div class="letter">R</div>
+                                </div>
+                                <div class="max-sm:text-center p-0 animate__animated animate__bounceInLeft animate__slow-5s">
+                                    <span class="web-dev tracking-widest text-2xl max-sm:text-2xl md:text-5xl lg:text-6xl"></span>
+                                </div>     
+                            </div>
+                            <div class="flex flex-row max-sm:flex-col md:flex-row lg:flex-row gap-4 items-center justify-center">  
+                                <div class="flex flex-col items-left text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl animate__animated animate__bounceInLeft animate__slow-5s">
+                                    <p>&#8220;Everything is a learning experience&#8221;</p>
+                                    <div class="flex max-sm:justify-center mt-4">
+                                        <button class="connect">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"></path></svg>
+                                            <span class="cursor-pointer">Let's Connect</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="max-sm:items-center robot">
+                                    <img src="./assets/header-img.svg"  class="w-64 h-64 max-w-lg mx-auto lg:max-w-none animate__animated animate__bounceInRight" alt="">
+                                </div>
+                                <div class="text-xl">
+                                    <div class="bottom-5 fixed left-20 max-sm:left-8 animate__animated animate__fadeInUp">
+                                        <a href="" class="mr-2 hover:text-blue-500 cursor-pointer">FB</a> /
+                                        <a href="" class="mr-2 ml-2 hover:text-blue-500 cursor-pointer">GIT</a> /
+                                        <a href="" class="mr-2 ml-2 hover:text-blue-500 cursor-pointer">LI</a> 
+                                    </div>
+                                    <div class="bottom-4 fixed right-20 max-sm:right-8 animate__animated animate__fadeInUp">
+                                        <a href="" class="mr-2 hover:text-blue-500 cursor-pointer">CV</a> 
+                                    </div>
+                                </div>
+                            </div>  
+                              
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="service" class="services-section h-48 bg-red text-2xl">
+                    Scroll Up and Down this page to see the parallax scrolling effect.
+                    This div is just here to enable scrolling.
+                    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+                </div> -->
+            </div>
+        </div>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="./components/js/script.js"></script>
+    </body>
+</html>

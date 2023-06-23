@@ -1,0 +1,14 @@
+#service{
+    background: url(../../assets/color-sharp.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    background-color: #121212;
+
+}
+
+/* .bottom-left {
+    position: fixed;
+    bottom: 1rem;
+    left: 5rem;
+  } */

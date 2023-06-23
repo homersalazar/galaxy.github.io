@@ -1,0 +1,46 @@
+@import url('home.css');
+@import url('connect.css');
+@import url('services.css');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    cursor: url(../../assets/cursor.png) 16 16, auto ;
+}
+
+body {
+    font-family: "Iceland", sans-serif;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.letter {
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-shadow:1px 1px 10px #213e9b, 1px 1px 10px #5fbdd7;
+}
+
+.letter:hover {
+    animation: flash 1s;
+}
+
+
+.robot {
+    position: relative;
+    animation: float 7s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
